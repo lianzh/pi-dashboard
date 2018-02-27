@@ -40,17 +40,16 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Pi Dashboard</a>
+                <a class="navbar-brand" href="#">Dashboard</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a target="_blank" href="http://shumeipai.nxez.com">树莓派实验室</a></li>
+                    <li><a target="_blank" href="http://www.baidu.com">百度</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a target="_blank" href="http://maker.quwj.com/project/10">Pi Dashboard</a></li>
-                            <li><a target="_blank" href="https://github.com/spoonysonny/pi-dashboard">GitHub Source</a></li>
+                            <li><a target="_blank" href="https://github.com/lianzh/pi-dashboard">GitHub Source</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -61,7 +60,10 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div style="text-align: center; padding: 20px 0;"><img src="assets/devices/<?php echo($D['model']['id']) ?>.png" /></div>
+                <div style="text-align: center; padding: 20px 0;">
+                    <!--<img src="assets/devices/<?php echo($D['model']['id']) ?>.png" />-->
+                    <h1>简易系统监听系统</h1>        
+                </div>
                 <div style="background-color: #E0E0E0; padding: 5px; border-radius: 3px;">
                     <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#CEFCA3; border-radius: 3px;"><div class="label">IP</div><div id="hostip" style="font-size: 150%; font-weight: bolder;"><?php echo($D['hostip']); ?></div></div>
                     <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#9DCFFB; border-radius: 3px;"><div class="label">TIME</div><div id="time" style="font-size: 150%; font-weight: bolder;">00:00</div><div id="date">-</div></div>
