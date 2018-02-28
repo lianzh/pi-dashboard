@@ -62,7 +62,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
             <div class="col-md-3">
                 <div style="text-align: center; padding: 20px 0;">
                     <!--<img src="assets/devices/<?php echo($D['model']['id']) ?>.png" />-->
-                    <h1>简易系统监听系统</h1>        
+                    <h1>Monitor</h1>        
                 </div>
                 <div style="background-color: #E0E0E0; padding: 5px; border-radius: 3px;">
                     <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#CEFCA3; border-radius: 3px;"><div class="label">IP</div><div id="hostip" style="font-size: 150%; font-weight: bolder;"><?php echo($D['hostip']); ?></div></div>
