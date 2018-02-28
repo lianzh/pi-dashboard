@@ -241,7 +241,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
             <div class="col-md-12">
                 <div id="footer">
                     <hr style="margin: 20px 0 10px 0;" />
-                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="http://maker.quwj.com/project/10"><strong>Pi Dashboard</strong></a> v<?php echo($D['version']) ?>, <a target="_blank" href="http://www.nxez.com">NXEZ.com</a> all rights reserved.
+                    <p class="pull-left" style="font-size: 12px;">Powered by <strong>Pi Dashboard</strong> v<?php echo($D['version']) ?>, all rights reserved.
                     </p>
                 </div>
             </div>
